@@ -1,0 +1,114 @@
+{
+  "synthetic": true,
+  "executedInNX": false,
+  "headers": [
+    "ID",
+    "Category",
+    "Check",
+    "Reference",
+    "Current",
+    "Result",
+    "Match method",
+    "Sheet",
+    "View",
+    "Diagnostic"
+  ],
+  "rows": [
+    [
+      "DEMO-001",
+      "Dimensions",
+      "Computed nominal",
+      "25",
+      "25",
+      "PASS",
+      "CHECK_ID: BEARING_BORE_01",
+      "Sheet 1",
+      "Front",
+      "Synthetic numerical fixture"
+    ],
+    [
+      "DEMO-002",
+      "Dimensions",
+      "Upper API tolerance",
+      "0.05",
+      "0.10",
+      "FAIL",
+      "CHECK_ID: BEARING_BORE_01",
+      "Sheet 1",
+      "Front",
+      "Tolerance increased; nominal unchanged"
+    ],
+    [
+      "DEMO-003",
+      "GD&T",
+      "Frame[0].ToleranceValue",
+      "0.20",
+      "0.30",
+      "FAIL",
+      "CHECK_ID: POSITION_01",
+      "Sheet 1",
+      "Front",
+      "Structured tolerance string changed"
+    ],
+    [
+      "DEMO-004",
+      "GD&T",
+      "Frame[0].Secondary.Letter",
+      "B",
+      "C",
+      "FAIL",
+      "CHECK_ID: POSITION_01",
+      "Sheet 1",
+      "Front",
+      "Datum reference role changed"
+    ],
+    [
+      "DEMO-005",
+      "Datums",
+      "Unmatched reference",
+      "Datum A",
+      "",
+      "MISSING",
+      "No same-kind remaining candidate",
+      "Sheet 1",
+      "Front",
+      "Confirm absence after extraction completeness review"
+    ],
+    [
+      "DEMO-006",
+      "Notes",
+      "Displayed text",
+      "Material SAE 1045",
+      "Material SAE 1045",
+      "PASS",
+      "CHECK_ID: MATERIAL_NOTE",
+      "Sheet 1",
+      "<sheet>",
+      "Exact wording agrees"
+    ],
+    [
+      "DEMO-007",
+      "Views",
+      "Location movement",
+      "(120,80)",
+      "(150,80)",
+      "WARNING",
+      "Unique name (review)",
+      "Sheet 2",
+      "Section A-A",
+      "Layout movement alone is not an engineering FAIL"
+    ],
+    [
+      "DEMO-008",
+      "Coverage",
+      "Release coverage",
+      "",
+      "",
+      "UNVERIFIED",
+      "Coverage gate",
+      "",
+      "",
+      "Complete GD&T / symbol / title-block semantics not validated"
+    ]
+  ]
+}

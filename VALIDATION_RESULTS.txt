@@ -1,0 +1,12 @@
+Development validation
+
+PASS: tests/static_check.py (VB lexical/delimiter/block counts and preservation source scan).
+PASS: Sample workbook has five expected sheets, seven count formulas and no cached Excel errors.
+PASS: Sample counts: PASS=2, FAIL=3, MISSING=1, EXTRA=0, WARNING=1, UNVERIFIED=1, ERROR=0.
+PASS: All five sample worksheet previews visually inspected.
+
+NOT RUN: VB engine helper (requires Windows PowerShell 5.1).
+NOT RUN: compile against installed NX 2306 DLLs.
+NOT RUN: NX runtime, drawing fixtures, highlight preservation, Excel COM.
+
+Source SHA256: 31657215e9d67019499aa06b83b1551cfd251a29c6c763e88617b052e0c1afde

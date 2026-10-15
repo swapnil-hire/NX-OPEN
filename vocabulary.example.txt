@@ -1,0 +1,28 @@
+# Demonstration subset only; replace with your approved technical vocabulary.
+# Every unlisted token is a WARNING, never an automatic correction.
+material
+remove
+sharp
+edges
+deburr
+all
+surfaces
+unless
+otherwise
+specified
+heat
+treatment
+hardness
+coating
+plating
+thread
+torque
+inspection
+surface
+finish
+SAE
+ISO
+ASME
+MMC
+LMC
+RFS
